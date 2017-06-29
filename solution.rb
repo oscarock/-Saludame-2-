@@ -5,6 +5,6 @@ get '/makers/:nombre' do
 	if !nombre
   		"Hola desconocido!."
 	else
-		"<h1>Hola #{nombre}!</h1>"
+		"<h1>Hola #{nombre.capitalize}!</h1>"
 	end
 end
